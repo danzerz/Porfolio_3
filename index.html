@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Cosmo Junkie</title>
+    <!-- Linking to external CSS file -->
+    <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navigation Section -->
     <nav class="site-nav grid">
-      <h1>Cosmo Junkie</h1>
+      <h1>Portfolio</h1>
       <ul>
-        <li>Portfolio</li>
-        <li>Skills</li>
-        <li>Constact</li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Welcome Section -->
     <section id="welcome" class="grid">
       <div class="welcome-text">
         <h2>Hi I am Swaraj</h2>
-        <p class="leading">A ethusiastic web developer.</p>
+        <p class="leading">A enthusiastic web developer.</p>
         <a href="#portfolio" class="button">View my work</a>
       </div>
       <div class="welcome-img">
@@ -26,34 +30,42 @@
       </div>
     </section>
 
+    <!-- Portfolio Section -->
     <section id="portfolio">
       <h3>Some of my projects</h3>
       <div class="projects grid">
-        <a href="#">
+        <a
+          href="https://rawcdn.githack.com/danzerz/50daysproject/565ac46bd8474ef35b0befca5890e71186ea4cb5/p1_expan_img/index.html"
+        >
           <img
             src="https://i.ibb.co/tZBs4kv/capsule-spatiale.png"
             alt="space race image"
           />
-          <h4>Rotating nav</h4>
+          <h4>IMAGE GALLERY</h4>
         </a>
 
-        <a href="#">
+        <a
+          href="https://rawcdn.githack.com/danzerz/50daysproject/565ac46bd8474ef35b0befca5890e71186ea4cb5/interactivecard/index.html"
+        >
           <img
             src="https://i.ibb.co/sgWBR6M/saturne.png"
             alt="planet boy image"
           />
-          <h4>Credit Card Form</h4>
+          <h4>CREDIT CARD FORM</h4>
         </a>
-        <a href="#">
+        <a
+          href="https://rawcdn.githack.com/danzerz/50daysproject/565ac46bd8474ef35b0befca5890e71186ea4cb5/progressbar/progessbar.html"
+        >
           <img
             src="https://i.ibb.co/Q80kSPQ/astronaute.png"
             alt="captain cosmo image"
           />
-          <h4>Backery Website</h4>
+          <h4>PROGRESS BAR</h4>
         </a>
       </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
       <h3>Things I Can Do</h3>
       <ul class="grid">
@@ -76,34 +88,37 @@
       </ul>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
       <h3>Get In Touch</h3>
       <p class="leading">Your Input</p>
-      <form action="#">
-        <input type="text" placeholder="NAME" fdprocessedid="nxkot" />
-        <input type="email" placeholder="EMAIL" fdprocessedid="b2wlm" />
-        <textarea placeholder="YOUR MESSAGE"></textarea>
-        <button class="button" fdprocessedid="62v6e">Send Flare</button>
-      </form>
+      <input type="text" placeholder="NAME" />
+      <input type="email" placeholder="EMAIL" />
+      <textarea placeholder="YOUR MESSAGE"></textarea>
+      <button class="button">Send Flare</button>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-      <p class="copyright">Copyright 2021 Cosmo Junkie</p>
-      <ul class="social">
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_fb.svg"
-            alt="facebook"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_tw.svg"
-            alt="twitter"
-          />
-        </a>
-      </ul>
+      <div class="grid">
+        <p class="copyright">Copyright 2021 SWARAJ</p>
+        <ul class="social">
+          <li>
+            <a href="#"
+              ><img
+                src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_fb.svg"
+                alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_tw.svg"
+                alt="twitter"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-    <span class="PING_IFRAME_FORM_DETECTION" style="display: none"></span>
   </body>
 </html>
